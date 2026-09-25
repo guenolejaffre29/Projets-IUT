@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guénolé Jaffré Devouge — Portfolio BUT Informatique</title>
+<meta name="description" content="Portfolio des projets et SAE réalisés dans le cadre du BUT Informatique à l'IUT de Vannes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">BUT Informatique · IUT de Vannes</p>
+    <h1>Guénolé Jaffré Devouge</h1>
+    <p class="tagline">Étudiant en développement — projets, SAE et compétences construits au fil du BUT.</p>
+    <div class="hero-links">
+      <a class="btn btn-primary" href="#projets">Voir les projets</a>
+      <a class="btn btn-ghost" href="https://github.com/guenolejaffre29" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="btn btn-ghost" id="cv-link" href="assets/cv.pdf" target="_blank" rel="noopener" hidden>CV ↗</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <section id="competences" aria-labelledby="competences-title">
+    <h2 id="competences-title">Compétences du référentiel</h2>
+    <p class="section-intro">Le BUT Informatique s'organise autour de six compétences nationales. Chaque projet ci-dessous s'y rattache.</p>
+    <ul class="skill-grid">
+      <li><span class="skill-dot skill-realiser"></span>Réaliser</li>
+      <li><span class="skill-dot skill-optimiser"></span>Optimiser</li>
+      <li><span class="skill-dot skill-administrer"></span>Administrer</li>
+      <li><span class="skill-dot skill-gerer"></span>Gérer</li>
+      <li><span class="skill-dot skill-conduire"></span>Conduire</li>
+      <li><span class="skill-dot skill-collaborer"></span>Collaborer</li>
+    </ul>
+  </section>
+
+  <section id="projets" aria-labelledby="projets-title">
+    <div class="section-header">
+      <h2 id="projets-title">Projets &amp; SAE</h2>
+      <p class="section-intro">Situations d'Apprentissage et d'Évaluation menées durant le BUT1 (Semestre 1). Le portfolio de compétences complet, avec le détail pédagogique de chaque acquis, reste consultable sur Notion.</p>
+    </div>
+
+    <div class="year-label">BUT1 — Semestre 1</div>
+    <div class="project-grid">
+
+      <article class="card">
+        <div class="card-tags">
+          <span class="tag skill-realiser">Réaliser</span>
+        </div>
+        <h3>SAE 1.01 — Reversi en Java</h3>
+        <p>Implémentation en binôme du jeu Reversi (Othello) en Java, jouable en terminal avec un affichage ASCII soigné : mode joueur contre joueur et joueur contre IA, grille configurable de 4×4 à 16×16.</p>
+        <ul class="tech-list">
+          <li>Java</li><li>Terminal / ASCII</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card-tags">
+          <span class="tag skill-optimiser">Optimiser</span>
+        </div>
+        <h3>SAE 1.02 — Comparaison d'algorithmes de recherche</h3>
+        <p>Implémentation et comparaison empirique de quatre algorithmes de recherche de sous-chaîne : naïf, Knuth-Morris-Pratt, Rabin-Karp et Boyer-Moore, avec protocole de mesure de performances.</p>
+        <ul class="tech-list">
+          <li>Java</li><li>Analyse de performance</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card-tags">
+          <span class="tag skill-administrer">Administrer</span>
+        </div>
+        <h3>SAE 1.03 — Poste de développement Linux</h3>
+        <p>Mise en place d'un environnement Linux fonctionnel sur machine Windows selon trois approches comparées : WSL, machine virtuelle VirtualBox et dualboot Linux/Windows.</p>
+        <ul class="tech-list">
+          <li>Linux</li><li>WSL</li><li>VirtualBox</li><li>Dualboot / UEFI</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="card-tags">
+          <span class="tag skill-gerer">Gérer</span>
+        </div>
+        <h3>SAE 1.04 — Base de données</h3>
+        <p>À partir d'un cahier des charges, conception d'un diagramme de classe UML puis écriture des scripts SQL de création de tables et de requêtes d'insertion/suppression. Travail en binôme.</p>
+        <ul class="tech-list">
+          <li>SQL</li><li>UML</li><li>VSCode</li>
+        </ul>
+      </article>
+
+      <article class="card card-wide">
+        <div class="card-tags">
+          <span class="tag skill-conduire">Conduire</span>
+          <span class="tag skill-collaborer">Collaborer</span>
+        </div>
+        <h3>SAE 1.06 — Site de promotion d'une métropole étrangère</h3>
+        <p>Contexte fictif : un développeur de retour d'expatriation crée un site pour promouvoir la métropole étrangère où il a vécu, à destination des jeunes actifs du numérique. Site WordPress multi-pages avec gestion multi-utilisateurs, boutique e-commerce de goodies, carte interactive des points d'intérêt et infographies d'indicateurs socio-économiques.</p>
+        <ul class="tech-list">
+          <li>WordPress</li><li>HTML / CSS / JS</li><li>E-commerce</li><li>Cartographie</li>
+        </ul>
+      </article>
+
+    </div>
+
+    <p class="note">Les projets de BUT2 et BUT3 seront ajoutés au fur et à mesure de leur réalisation.</p>
+  </section>
+
+  <section id="portfolio-complet" aria-labelledby="portfolio-complet-title">
+    <h2 id="portfolio-complet-title">Portfolio de compétences complet</h2>
+    <p>Le détail pédagogique complet (analyse réflexive, acquis critiques, auto-évaluation par compétence) est tenu à jour sur le portfolio Notion officiel du BUT Informatique.</p>
+    <a class="btn btn-ghost" href="https://guenole-jaffre.notion.site/portfolio-iut-vannes?source=copy_link" target="_blank" rel="noopener">Consulter le portfolio de compétences ↗</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Guénolé Jaffré Devouge — BUT Informatique, IUT de Vannes</p>
+    <p><a href="https://github.com/guenolejaffre29" target="_blank" rel="noopener">github.com/guenolejaffre29</a></p>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
